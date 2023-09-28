@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etec Brawl</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="IMG/091667a6-2f28-40aa-891f-f643b8c274fb.png">
+</head>
+<body>
+
+    <style>
+        body {
+         background-color: #D2D2D2;
+        }
+    </style>
+
+
+        <nav class="navbar navbar-expand-lg" style="background-color: #ea5300;">
+          <div>
+            <img src="IMG/091667a6-2f28-40aa-891f-f643b8c274fb.png" style="width: 100px;" alt="">
+          </div>
+          <div class="container">
+            <a href="" class="navbar-brand primary-color">
+              <h3 style="color: #000000;">Etec-Brawl</h3>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Personagens</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Processo de programação
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#Create">Create e vida</a></li>
+                    <li><a class="dropdown-item" href="#Movimentação">Movimentação</a></li>
+                    <li><a class="dropdown-item" href="#soco">Soco</a></li>
+                    <li><a class="dropdown-item" href="#step">Step e animação</a></li>
+                    <li><a class="dropdown-item" href="#hitbox">Hitbox</a></li>
+                    <li><a class="dropdown-item" href="#jogar">Jogar e end</a></li>
+                  </ul>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#comandos">Comandos</a>
+                  </li>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+    
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="container">
+    <div class="row">
+        <h1 class="text-center">Bem vindo ao Etec-Brawl</h1>
+    </div>
+  </div>
+
+  <br>
+  <div class="container">
+    <div class="row">
+        <div class="col-12">
+            <p>Neste website iremos te mostrar como foi o processo de criação do nosso jogo "Etec-Brawl". Este jogo foi originado de um trabalho escolar cujo objetivo era usar o gamemaker para fazer um jogo, assim tivemos a ideia de fazer um jogo de luta entre alguns de nossos professores. Veja a seguir o processo de confecção do jogo</p>
+        </div>
+    </div>
+  </div>
+
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="text-center">
+        <div class="col-12">
+          <button type="button" style="width: 100px; height: 50px;"  class="btn btn-success">
+          <a href="https://gx.games/games/l86dua/jogo-de-luta/tracks/314edd85-26ae-41b5-9c62-63acb0805b1e">Jogar</a></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br>
+  <div>
+    <img src="IMG/print.cenario.png" width="100%" alt="">
+  </div>
+
+  <br>
+  <div class="container">
+    <div class="row">
+        <h1 class="text-center">Personagens</h1>
+    </div>
+  </div>
+
+  <br>
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-6 col-md-5 col-sm-7">
+            <img src="IMG/print.mario.png" alt="" width="550px">
+        </div>
+        <div class="col-lg-6 col-md-7 col-sm-5" >
+            <h3 class="text-left">Mario de pw</h3>
+            <p>Este personagem é inspirado no nosso professor que propos o projeto, Mario de Jesus. Na versão disponivel do jogo ele possui apenas comandos basicos, mas no planejamento, pensamos em seu golpe especial ser ele usando uma ak-47. Veja a seguir os sprites do personagem fazendo algumas ações básicas:</p>
+        </div>
+    </div>
+  </div>
+
+  <br>
+  <h1 style="text-align: center;">Sprites Mario de pw</h1>
+
+  <br>
+  <br>
+  <div class="container">
+    <div class="row">
+        <div class="card col-md-6 m-auto" style="width: 32rem;">
+            <img src="mario pw andando.gif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sprite Andando</h5>
+              <p class="card-text">Aqui temos o sprite do personagem Mario de pw andando.</p>
+              <a href="mario pw andando.gif" class="btn btn-primary">Ver a animação</a>
+            </div>
+          </div>
+
+          <div class="card col-md-6 m-auto" style="width: 32rem;">
+            <img src="mario pw soco.gif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sprite Socando</h5>
+              <p class="card-text">Aqui temos o sprite do personagem Mario de pw socando.</p>
+              <a href="mario pw soco.gif" class="btn btn-primary">Ver a animação</a>
+            </div>
+          </div>
+    </div>
+  </div>
+
+  <br>
+  <br>
+  <br>
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-6 col-md-5 col-sm-5" >
+            <h3 class="text-left">Mario de Química</h3>
+            <p>Este personagem é inspirado no nosso professor de quimica, Mario de Oliveira. Na versão disponivel do jogo ele possui apenas comandos basicos, mas no planejamento, pensamos em seu golpe especial ser ele joigando algum produto quimico. Veja a seguir os sprites do personagem fazendo algumas ações básicas:</p>
+        </div>
+        <div class="col-lg-6 col-md-7 col-sm-7">
+            <img src="IMG/print.quimica.png" alt="" width="600px">
+        </div>
+    </div>
+  </div>
+
+  <br>
+  <br>
+  <h1 style="text-align: center;">Sprites Mario de Quimica</h1>
+
+  <br>
+  <br>
+  <div class="container">
+    <div class="row">
+        <div class="card col-md-6 m-auto" style="width: 32rem;">
+            <img src="IMG/arte,,sprites/personagens/mario de fisica e quimica/Mario de Fisica ou Quimica andando.gif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sprite Andando</h5>
+              <p class="card-text">Aqui temos o sprite do personagem Mario de quimica andando.</p>
+              <a href="IMG/arte,,sprites/personagens/mario de fisica e quimica/Mario de Fisica ou Quimica andando.gif" class="btn btn-primary">Ver a animação</a>
+            </div>
+          </div>
+
+          <div class="card col-md-6 m-auto" style="width: 32rem;">
+            <img src="IMG/arte,,sprites/personagens/mario de fisica e quimica/Mario de Fisica ou Quimica Socando.gif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sprite Socando</h5>
+              <p class="card-text">Aqui temos o sprite do personagem Mario de quimica socando.</p>
+              <a href="IMG/arte,,sprites/personagens/mario de fisica e quimica/Mario de Fisica ou Quimica Socando.gif" class="btn btn-primary">Ver a animação</a>
+            </div>
+          </div>
+    </div>
+  </div>
+
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1>
+          Processo de Programação
+        </h1>
+      </div>
+    </div>
+  </div>
+
+  <br>
+  <div class="container">
+    <div class="row">
+      <Div class="col-12">
+        <p>Para a programação, usamos o sistema de objetos para representar tudo que possa ser interagivel no jogo. Nas imagens abaixo vamos explicar como foi o processo de programação do jogo no Game Maker.</p>
+      </Div>
+    </div>
+  </div>
+
+  <hr>
+  <br>
+  <div class="container">
+    <div class="row">
+      <a name="Create">
+        <h3 class="text-left" ">Create e vida</h3>
+      </a>
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <div class="row">
+      <p>Aqui temos um "create", ou seja, variaveis que são criadas assim que o objeto for iniciado. Neste create, diz que quando o objeto for criado ele tera uma variavel chamada "lifeb", que será a vida do nosso personagem.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <img src="IMG/Captura de tela 2023-09-26 120322.png" alt="">
+      </div>
+    </div>
+  </div>
+
+  <hr>
+  <br>
+  <div class="container">
+    <div class="row">
+      <a name="Movimentação">
+        <h3 class="text-left">Movimentação</h3>
+      </a>
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div>
+        <p>Este é uma parte do código de movimentação para o lado esquerdo. Onde ele movimenta a imagem para a esquerda ja que em "x" o valor é -=2. No comando "sprite_index = spj_andando" faz que ao clicar na tecla, alem de movimentar o personagem ira também trocar o sprite. E por fim, o comando "image_xscale = -1" serve para dimensionar o x do objeto no layout do jogo.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <img src="IMG/Captura de tela 2023-09-26 115910.png" alt="">
+      </div>
+    </div>
+  </div>
+
+  <hr>
+  <br>
+  <div class="container">
+    <div class="row">
+      <p>No exemplo abaixo temos o mesmo processo, mas agora para o lado direito.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <img src="IMG/Captura de tela 2023-09-26 120012.png" alt="">
+      </div>
+    </div>
+  </div>
+
+  <hr>
+  <br>
+  <div class="container">
+    <div class="row">
+      <a name="soco">
+        <h3 class="text-left">Soco</h3>
+      </a>
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <div class="row">
+      <p>Este é o código de soco, que diz que ao apertar a tecla de soco, tal ato é feito, Quando o soco é dado, ele ativa um código que diz que caso o objeto hitbox não exita (oque sera explicado mais para frente), ele o cria.</p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <img src="IMG/printsoco.png" alt="">
+      </div>
+    </div>
+  </div>
+
+  <hr>
+  <br>
+  <div class="container">
+    <div class="row">
+      <a name="step">
+        <h3 class="text-left">Step e animação</h3>
+      </a>
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <div class="row">
+      <p>Aqui vemos um "step" que indica algumas ações, este step diz que quando tal sprite existir, ela sera mudado na mesma hora para oque esta dentro das chaves, oque não afetara a movimentação, ja que este código so afeta quando a ação parar. Este código serve para que a animação não continue após o fim da ação.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <img src="IMG/Captura de tela 2023-09-26 120133.png" alt="">
+      </div>
+    </div>
+  </div>
+
+  <hr>
+  <br>
+  <div class="container">
+    <div class="row">
+      <a name="hitbox">
+        <h3 class="text-left">Hitbox</h3>
+      </a>
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <div class="row">
+      <p>Aqui temos a hitbox, o objeto que vai contar o dano e retirar a vida. Ela detecta colisão com o jogador oponente, caso a colisão aconteça, ela sera colocada em uma lista em forma de variavel, e essa variavel sera utilizada para retirar vida do personagem.</p>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <img src="IMG/Captura de tela 2023-09-26 120411.png" alt="">
+      </div>
+    </div>
+  </div>
+
+  <hr>
+  <br>
+  <div class="container">
+    <div class="row">
+      <a name="jogar">
+        <h3 class="text-left">Jogar e End</h3>
+      </a>
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <div class="row">
+      <p>Os códigos a seguir servem para iniciar e terminar o jogo, eles são objetos que ao serem clicados, fazem suas ações.</p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <img src="IMG/printjogar.png" alt="">
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <img src="IMG/printend.png" alt="">
+      </div>
+    </div>
+  </div>
+
+  <hr>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <a name="comandos">
+          <h1>
+            Comandos
+          </h1>
+        </a>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <div class="row">
+      <h3>
+        Mario de Quimica
+      </h3>
+      <p>Soco: F;</p>
+      <p>Soco2: G</p>
+      <P>Movimentação: s/d</P>
+      <p>Reset game: 1</p>
+    </div>
+  </div>
+
+  <br>
+  <div class="container">
+    <div class="row">
+      <h3>
+        Mario de pw
+      </h3>
+      <p>Soco: 0</p>
+      <p>Soco2: 2</p>
+      <p>Movimentação: direcionais mouse</p>
+    </div>
+  </div>
+
+  <br>
+  <footer class="page-footer p-5 col-12 m-auto" style="background-color: black;">
+    <div class="text-center">
+      <a href="">@2023 Copyright: Etec Brawl</a>
+      <br>
+      <p  style="color: white; text-align: left;">Rhaul Unida Oliveira</p>
+      <p  style="color: white; text-align: left;">João Pedro Johnson</p>
+      <p  style="color: white; text-align: left;">Rafaela di Clemente</p>
+      <p  style="color: white; text-align: left;">Fabricio Paes</p>
+      <p  style="color: white; text-align: left;">Yann Rodrigues</p>
+      <p  style="color: white; text-align: left;">Caua Vieira</p>
+    </div>
+  </footer>
+
+</body>
+</html>
